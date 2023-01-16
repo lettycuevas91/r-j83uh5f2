@@ -20,5 +20,5 @@ it('renders the counter', () => {
 it('updates the counter', () => {
   const wrapper = shallow(<App />);
   wrapper.find('textarea').simulate('change', { target: { value: 'Hola Mundo' } });
-  expect(wrapper.find('.counter').text()).toBe('1');
+  expect(wrapper.find('.counter').text()).toBe("10");
 });
